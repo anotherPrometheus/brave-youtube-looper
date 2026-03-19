@@ -26,3 +26,19 @@ That's it! Open any YouTube video, and you'll see the new Loop icon in the botto
 
 ---
 *Created by you!*
+
+
+
+
+
+
+additional: Browser extensions are completely independent of your operating system (like Windows or Mac). They live entirely inside the browser.
+
+Any person on any computer (Windows, Mac, or Linux) can install your extension, as long as they are using a Chromium-based browser. This includes:
+
+Brave
+Google Chrome
+Microsoft Edge
+Vivaldi
+Opera
+As long as your friends are using one of those browsers on their computer, they can download your folder from GitHub, go to their extension settings, and click "Load unpacked" to use your Loop button!
