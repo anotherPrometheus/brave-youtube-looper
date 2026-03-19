@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Brave YouTube Looper",
+  "version": "1.0",
+  "description": "Adds a native-looking loop button to the YouTube video player in Brave.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+      "default_title": "Brave YouTube Looper"
+  }
+}

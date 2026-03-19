@@ -1,0 +1,42 @@
+/* styles.css */
+/* Styles for the injected Brave YouTube Looper button to make it look native */
+
+.brave-yt-loop-btn {
+    /* Align with other YouTube player buttons */
+    vertical-align: top;
+    margin-right: 0px; 
+    transition: opacity 0.1s cubic-bezier(0.4,0,1,1);
+}
+
+.brave-yt-loop-btn svg {
+    /* Set icon size and color to match native YT controls */
+    fill: #fff; /* Standard YT control color */
+    pointer-events: none; /* Let the button handle clicks */
+}
+
+/* Hover effect */
+.brave-yt-loop-btn:hover {
+    opacity: 1 !important;
+}
+
+/* Active State styles (when loop is ON) */
+.brave-yt-loop-btn.brave-loop-active svg {
+    /* Give it a slight color change or just keep it solid white to show it's "On" */
+    /* Alternatively, YouTube sometimes uses a red hue for active states, but white is standard for active toggles */
+    fill: #fff;
+}
+
+/* When active, add a small dot indicator underneath (optional, common in some modern UIs) */
+/*
+.brave-yt-loop-btn.brave-loop-active::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: #f00; 
+    border-radius: 50%;
+}
+*/
