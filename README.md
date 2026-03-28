@@ -21,11 +21,7 @@ Since this is an open-source developer extension, you won't find it in the Chrom
 
 That's it! Open any YouTube video, and you'll see the new Loop icon in the bottom right corner of the video player.
 
-## Screenshots
-*(You can add a screenshot of the button here later!)*
-
----
-*Created by you!*
+*Created by anotherPrometheus!*
 
 
 
