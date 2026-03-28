@@ -3,9 +3,9 @@
 A lightweight, native-looking browser extension that adds a dedicated **Loop** button directly to the YouTube video player. Built specifically for Brave (and other Chromium browsers).
 
 ## Features
-- 🔁 **One-Click Looping:** Instantly loop any YouTube video.
-- 🎨 **Native Integration:** The button styled to match YouTube's exact player controls seamlessly.
-- 🚀 **Lightweight:** No tracking, no bloat, just pure JavaScript and CSS.
+-  **One-Click Looping:** Instantly loop any YouTube video.
+-  **Native Integration:** The button styled to match YouTube's exact player controls seamlessly.
+-  **Lightweight:** No tracking, no bloat, just pure JavaScript and CSS.
 
 ## How to Install (For Friends & Users)
 
